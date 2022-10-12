@@ -18,8 +18,8 @@ public class UcakBileti {
         yas = inp.nextInt();
         System.out.println("Yolculuk tipini giriniz:");
         System.out.println("1-Tek Yön\n2-Gidiş Geliş");
-        yolculukTipi = inp.nextInt()
-         
+        yolculukTipi = inp.nextInt();
+
         if (yas > 0 && yas < 12 && yolculukTipi == 1) {
             normalTutar = (mesafe * mesafeUcreti);
             indirimTutari = (normalTutar * OnIkıdenKucukse);
@@ -70,6 +70,9 @@ public class UcakBileti {
 
         }
     }
+
+
+
 
 
 
